@@ -3,7 +3,7 @@ package lru_expires_cache
 import (
 	"time"
 
-	"github.com/hashicorp/golang-lru"
+	lru "github.com/hashicorp/golang-lru"
 )
 
 type valueIncludeExpires struct {
