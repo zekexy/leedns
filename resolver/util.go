@@ -25,7 +25,7 @@ func setMsgTTL(msg *D.Msg, ttl uint32) {
 }
 
 func putMsgToCache(cache *LEC.LruExpiresCache, key string, msg *D.Msg) {
-	if msg == nil {
+	if msg == nil || msg.Answer == nil {
 		return
 	}
 
