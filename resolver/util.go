@@ -3,7 +3,7 @@ package resolver
 import (
 	"time"
 
-	LEC "github.com/Limgmk/leedns/cache"
+	LEC "github.com/zekexy/leedns/cache"
 	D "github.com/miekg/dns"
 )
 

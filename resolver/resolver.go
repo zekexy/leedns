@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
-	LEC "github.com/Limgmk/leedns/cache"
-	"github.com/Limgmk/leedns/dns"
+	LEC "github.com/zekexy/leedns/cache"
+	"github.com/zekexy/leedns/dns"
 	D "github.com/miekg/dns"
 	"github.com/robfig/cron/v3"
 )

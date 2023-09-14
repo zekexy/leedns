@@ -1,4 +1,4 @@
-module github.com/Limgmk/leedns
+module github.com/zekexy/leedns
 
 go 1.15
 

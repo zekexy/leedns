@@ -6,9 +6,9 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/Limgmk/leedns/dns"
-	"github.com/Limgmk/leedns/listener"
-	"github.com/Limgmk/leedns/resolver"
+	"github.com/zekexy/leedns/dns"
+	"github.com/zekexy/leedns/listener"
+	"github.com/zekexy/leedns/resolver"
 	flag "github.com/spf13/pflag"
 	"gopkg.in/yaml.v2"
 )

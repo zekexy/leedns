@@ -2,14 +2,14 @@
 
 ### Linux
 ```
-git clone https://github.com/Limgmk/leedns
+git clone https://github.com/zekexy/leedns
 cd ./leedns
 make build
 ```
 
 ### Docker
 ```
-git clone https://github.com/Limgmk/leedns
+git clone https://github.com/zekexy/leedns
 cd ./leedns
 make build-docker
 ```

@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/Limgmk/leedns/dns"
-	R "github.com/Limgmk/leedns/resolver"
+	"github.com/zekexy/leedns/dns"
+	R "github.com/zekexy/leedns/resolver"
 	D "github.com/miekg/dns"
 )
 
