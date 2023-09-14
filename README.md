@@ -7,13 +7,6 @@ cd ./leedns
 make build
 ```
 
-### Docker
-```
-git clone https://github.com/zekexy/leedns
-cd ./leedns
-make build-docker
-```
-
 ## 配置文件
 ```yaml
 ## 监听下游
@@ -82,14 +75,4 @@ hosts: /etc/hosts
 默认配置文件为 /etc/leedns/config.yaml, 或使用 -c(--config) 指定
 ```
 ./target/leedns --config ./config_example.yaml
-```
-
-### Docker
-用默认配置文件启动
-```
-docker run -d --net=host leedns:latest
-```
-或者 (假设宿主机的 /etc/leedns 目录存在且包含一个名为 config.yaml 配置文件)
-```
-docker run -d --net=host -v /etc/leedns:/etc/leedns leedns:latest
 ```
